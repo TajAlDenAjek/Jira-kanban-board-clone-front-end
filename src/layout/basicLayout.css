@@ -1,0 +1,418 @@
+.header {
+    display: flex;
+    background-color: #fff;
+    color: #44546F;
+    align-items: center;
+    font-size: larger;
+    box-sizing: border-box;
+    padding: 0;
+    position: relative;
+    height: 56px;
+    border-bottom: 0.2mm solid #eee;
+}
+
+.header .ant-btn:nth-child(1) {
+    font-weight: bold;
+}
+
+.header .ant-btn:nth-child(1):hover {
+    background-color: #0C44EE;
+}
+
+.header-child:nth-child(2) {
+    border-bottom: inherit;
+    margin-bottom: 9px;
+}
+
+.header-child {
+    display: flex;
+    align-items: center;
+}
+
+.header-child:nth-child(1) svg:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.header-child:nth-child(1) svg:nth-child(1):hover {
+    border-radius: 25px;
+}
+
+.header-child:nth-child(3) {
+    flex-grow: 1;
+}
+
+.header-child:nth-child(4) {
+    display: flex;
+}
+
+.header-child:nth-child(4) span:not(:first-child):hover {
+    background-color: #ddd;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 50px;
+
+}
+
+.header-child:nth-child(4) svg {
+    margin: 0px 8px 0px 8px;
+}
+
+.header-child:nth-child(1) svg:nth-child(1) {
+    margin: 0px 16px 0px 0px;
+    padding: 4px;
+    height: 24px;
+    width: 24px;
+}
+
+.header-child:nth-child(1) svg:nth-child(2) {
+    margin-left: 4px;
+    height: 24px;
+    width: 134.25px;
+}
+
+.header div {
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    color: #44546F;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    /* overflow: auto; */
+}
+
+.upgrade-to-free {
+    width: 216px;
+    display: flex;
+    flex-direction: column;
+}
+
+.upgrade-to-free img {
+    height: 24px;
+    width: 24px;
+    margin: 30px 0px 0px 30px;
+}
+
+.upgrade-to-free button {
+    color: #0C66E4;
+    z-index: 1;
+    font-size: 12px;
+    width: 101px;
+    height: 32px;
+    margin: 10px 0px 0px 45px;
+    background-color: white;
+    border-color: #0C66E4;
+    border-radius: 24px;
+    border-image-slice: 1;
+}
+
+.upgrade-to-free button:hover {
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+
+.upgrade-to-free button:hover {
+    background-color: #0C66E4;
+}
+
+.kanban-project {
+    height: 35.19px;
+    font-weight: normal;
+}
+
+.kanban-project p {
+    margin-top: -10px;
+}
+
+.upgrade-to-free-sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.modified-item {
+    &::after {
+        display: none;
+    }
+}
+
+.upper-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.upper-content-sub svg {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+
+}
+
+.content-search-start {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.content-search-start-sub {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-search-start span {
+    max-width: 200px;
+}
+
+.content-search-start .first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2px;
+}
+
+.header .ant-input-affix-wrapper,
+.content-search-start .first .ant-input-affix-wrapper {
+    border-radius: 2px;
+    margin-right: 10px;
+    border: 0.7mm solid #ddd;
+}
+
+/* .content-search-start .first .ant-input{
+    background-color: inherit;
+} */
+
+/* .content-search-start .first .ant-input {
+    background-color: inherit;
+} */
+
+/* .content-search-start .first .ant-input-affix-wrapper:hover  {
+    background-color: #eee;
+} */
+
+
+.content-invite-button {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    color: #172D4B;
+    background-color: #091E420F;
+    width: 95px;
+    height: 32px;
+    border-radius: 20px;
+}
+
+.content-invite-button:hover {
+    background-color: #eee;
+}
+
+.content-invite-button svg {
+    border-radius: 25px;
+    padding: 2px;
+    width: 24px;
+    height: 24px;
+    background-color: #ddd;
+    justify-self: flex-start;
+}
+
+.content-invite-button div {
+    cursor: pointer;
+    border-radius: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-center;
+    padding: 10px;
+}
+
+.content-search-start .first svg {
+    cursor: pointer;
+    /* margin: 5px; */
+    height: 32px;
+    width: 32px;
+    border-radius: 25px;
+}
+
+.content-search-start .second {
+    display: flex;
+    align-items: center;
+    font-size: nomral;
+}
+
+.content-search-start .second p {
+    font-size: 11px;
+    color: #626F86;
+    font-weight: lighter;
+}
+
+.content-search-start .second svg {
+    margin: 5px;
+}
+
+.board {
+    /* background-color: red; */
+    /* height: 100%; */
+    min-height: 282px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    margin-top: 20px;
+    overflow: auto;
+}
+
+.containers {
+    display: flex;
+}
+
+.menu-item-icon-margin-right .ant-menu-submenu-title {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 50%;
+}
+
+.header-child:nth-child(2) .ant-menu-submenu {
+    display: flex;
+    align-items: center;
+}
+
+.header-child:nth-child(2) .ant-menu-submenu-title:hover {
+    
+    align-self: center;
+    background-color: #ccc;
+}
+
+.menu-item-icon-margin-right .ant-menu-submenu-title svg {
+    color: #888;
+    width: 8px;
+    height: 10px;
+    margin: 4px 0px 0px 5px;
+}
+
+.ant-layout-sider {
+    display: flex;
+    flex-direction: column;
+    color: #44546F;
+    align-items: center;
+    border-right: 1.2mm solid #eee;
+    /* height: calc(100vh-56px); */
+}
+
+
+.sideBar .ant-menu {
+    width: 241.5px;
+    color: inherit;
+    /* background-color: red; */
+    /* height: calc(100vh-56px); */
+}
+
+.sideBar {
+    height: calc(100vh);
+    display: flex;
+    flex-direction: column;
+    font-weight: normal;
+}
+
+.sider-last {
+    position: absolute;
+    bottom: 20%;
+    right: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.content-container {
+    color: #44546F;
+    height: calc(100vh);
+}
+
+.content-container ol {
+    display: flex;
+    padding-left: 25px;
+    color: #44546F;
+    font-weight: normal;
+}
+
+.content-container ol li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.content-container ol span {
+    color: #44546F;
+}
+
+.upper-content-sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upper-content-sub svg {
+    width: 28px;
+    height: 28px;
+}
+
+.upper-content-sub .anticon svg:hover {
+    cursor: pointer;
+    background-color: #091E420F;
+}
+
+.upper-content-sub .anticon:nth-child(4) svg {
+    background-color: #091E420F;
+}
+
+.upper-content-sub .anticon:nth-child(4) svg:hover {
+    background-color: #ccc;
+}
+
+
+.upper-content div:nth-child(1) {
+    width: 121.82px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upper-content div:nth-child(1):hover {
+    background-color: #091E420F;
+}
+
+.second-like-button {
+    color: #172D4B;
+    background-color: #091E420F;
+    padding: 2px 5px 2px 5px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.second-like-button:not(:nth-child(2)) .anticon svg {
+    width: 24px;
+    height: 24px;
+}
+
+.second-like-button:nth-child(2) .anticon svg {
+    padding-top: 2px;
+    height: 14px;
+    width: 14px;
+}
+
+.second-like-button:last-child .anticon svg {
+    width: 15px;
+}

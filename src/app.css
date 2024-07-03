@@ -1,0 +1,9 @@
+.basic-layout {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+    min-width: 100vh;
+    height: calc(97vh);
+    /* overflow: hidden; */
+}
